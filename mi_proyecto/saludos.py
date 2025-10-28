@@ -2,8 +2,8 @@
 from utils.printer import print_message
 
 def saludo(name: str):
-    """Genera un saludo simple en español."""
-    message = f"Hola, {name}!"
+    """Genera un saludo formal."""
+    message = f"Buenos días, {name}. Espero que tengas un excelente día."
     print_message(message)
     
 def greet_in_english(name: str):
